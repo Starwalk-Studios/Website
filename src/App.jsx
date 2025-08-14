@@ -1,12 +1,19 @@
 import { useState } from 'react'
+import Lenis from 'lenis'
+import * as StarWalk from "./components"
 import './App.css'
 
-function App() {
+const App = () => {
+  const lenis = new Lenis({
+  autoRaf: true,
+});
+lenis.on('scroll', (e) => {
+  console.log(e);
+});
   return (
     <>
-      <h1>
-        Welcome to StarWalk!
-      </h1>
+      <StarWalk.Navbar />
+      <StarWalk.Hero />
     </>
   )
 }
