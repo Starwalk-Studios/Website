@@ -2,7 +2,8 @@ import NavButton from "./reusable/NavButton"
 
 const Navbar = () => {
     return (
-        <div className="navbar z-100 gap-1.5 fixed bottom-15 left-[50%] translate-x-[-50%] bg-gray-100/30 backdrop-blur-sm flex fixed p-2 rounded-xl">
+        <>
+        <div className="navbar z-100 gap-1.5 fixed bottom-0 left-[50%] translate-x-[-50%]  flex fixed p-2 rounded-xl">
             <NavButton>
                 Vision
             </NavButton>
@@ -13,9 +14,10 @@ const Navbar = () => {
                 Developers
             </NavButton>
             <NavButton> 
-                Life@StarWalk
+                Future@StarWalk
             </NavButton>
         </div>
+    </>
     )
 }
 

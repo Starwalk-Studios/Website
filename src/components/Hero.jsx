@@ -6,7 +6,7 @@ const Hero = () => {
     gsap.registerPlugin(InertiaPlugin);
     function initGlowingInteractiveDotsGrid() {
   document.querySelectorAll('[data-dots-container-init]').forEach(container => {
-    const colors         = { base: "#fff", active: "#A8FF51" };
+    const colors         = { base: "#ffffff23", active: "#ffffff" };
     const threshold      = 150;
     const speedThreshold = 400;
     const shockRadius    = 250;

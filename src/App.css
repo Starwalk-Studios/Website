@@ -10,7 +10,8 @@ body {
 }
 
 .section-resource {
-  padding: 4em;
+  padding: 0 4em;
+  padding-bottom: 5em;
   justify-content: center;
   align-items: center;
   height: 100svh;
@@ -53,10 +54,10 @@ body {
   will-change: transform, background-color;
   transform-origin: center;
   background-color: #245e51;
-  border-radius: 50%;
+  border-radius: 1em;
   width: 1em;
   height: 1em;
   position: relative;
   transform: translate(0);
-  opacity: 0.4;
+  
 }
